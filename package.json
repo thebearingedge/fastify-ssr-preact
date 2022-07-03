@@ -1,0 +1,19 @@
+{
+  "name": "node-app",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server/index.tsx"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "fastify": "^4.2.0",
+    "preact": "^10.8.2",
+    "preact-render-to-string": "^5.2.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.208",
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}

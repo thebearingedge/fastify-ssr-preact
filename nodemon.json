@@ -1,0 +1,12 @@
+{
+  "exec": "node --no-warnings --loader ts-node/esm -r ts-node/register",
+  "ext": "ts,tsx",
+  "watch": [
+    ".env",
+    "src/**/*.*",
+    "tsconfig.json"
+  ],
+  "events": {
+    "start": "node -e 'console.clear()'"
+  }
+}
